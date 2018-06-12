@@ -1,6 +1,6 @@
 To live sync a directory when ever changes made !
 
-1. install inotify
+1. install rsync, inotify
 
    apt update && apt -y install openssh-server rsync inotify-tools   [for ubuntu/Debian]
    yum update && yum -y install openssh-server rsync inotify-tools   [for Centos/REHL]
