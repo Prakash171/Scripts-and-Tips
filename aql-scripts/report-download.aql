@@ -1,0 +1,7 @@
+items.find (
+    {
+     "repo": {"$eq":"<repository-name>"},
+     "name": {"$match":"<type-of-file>"}               #Example: "name": {"$match":"*.zip"}
+    }
+)
+.include("repo", "name", "path", "created", "stat.downloads")

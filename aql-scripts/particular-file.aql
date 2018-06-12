@@ -1,0 +1,6 @@
+items.find (
+    {
+     "name": {"$match":"*.jar"}
+    }
+)
+.include("repo", "name", "path", "created", "stat.downloads")
