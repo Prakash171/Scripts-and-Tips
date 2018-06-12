@@ -1,0 +1,19 @@
+for enabling ssh port forwarding user should have ssh access to the Machine 
+Then Run below command
+
+syntax: 
+
+ssh -g -f -N <User-Name>@<ip-address or DNS-name> -D 2022
+
+-g Allows remote hosts to connect to local forwarded ports.  If used on a multiplexed connection, then this option must be specified on the master process.
+-f  Requests ssh to go to background just before command execution
+-N Do not execute a remote command.  This is useful for just forwarding ports.
+-D bind address port
+
+Next go to Firefox —> preferences —> Advanced —> Network —> connection —> settings 
+
+Select manual proxy configuration 
+
+In socks host : localhost and port 2022
+Select sock v5
+Finally click ok…..now your ready to browse as your remote machine!

@@ -1,0 +1,21 @@
+##############################################################################################################################################################
+#                                                                                                                                                            #
+#                                                             Basic-Commands                                                                                 #
+##############################################################################################################################################################
+
+
+- ps -A                                # To show all process running (process status). - PID TTY Time & CMD
+- Kill -9                               # To kill process -9 to kill signal -15 to terminate
+- top                                   # To display live process activity
+- netstat -nlp                     # To check ports listing 
+- lsof -i                               # To check ports listing 
+- iptables -L -v                  # Linux firewall -L to list all firewall policies - chain input, chain output, chain forward  
+-                                          # iptables --policy INPUT ACCEPT,       iptables --policy OUTPUT ACCEPT,        iptables --policy FORWARD ACCEPT
+-                                          # Example: iptables -A INPUT -s 10.10.10.10/24 -j DROP 
+- tcpdump -i eth0              # Network sniffer tool
+- nslookup
+- var/log/secure 
+- var/log/message
+- crontab -e
+- telnet                               # to connect to a device as well as to check for an IP a port open of close 
+
