@@ -1,0 +1,16 @@
+Http status codes ??
+
+1xx - Information status
+2xx - Success Status
+3xx - Redirecting
+4xx - error codes - important 
+	400 - Size too large to load, malformed request syntax
+	401 & 403 - Authentication & access restricted 
+	402 - payment required
+	415 - unsupported media type
+5xx - server side error codes - important
+	500 - Internal server error 
+	502 - Bad gateway
+	505 - Http version not supported used in the request
+
+
