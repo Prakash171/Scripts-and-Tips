@@ -1,6 +1,7 @@
 To live sync a directory when ever changes made !
 
 1. install inotify
+
    apt update && apt -y install openssh-server rsync inotify-tools   [for ubuntu/Debian]
    yum update && yum -y install openssh-server rsync inotify-tools   [for Centos/REHL]
 2. create a file-sync.sh 
