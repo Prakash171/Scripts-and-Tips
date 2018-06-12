@@ -13,3 +13,16 @@ status-check.sh
                       Example: ./status-check.sh 172.255.255.255
                  
                       in this case the usage report is created with name IP-172.255.255.255 and also establishes ssh connection to <user-name>@172.255.255.255
+
+Syntax:
+
+./status-check.sh <IP-address>
+
+(or)
+
+./status-check.sh <IP-address> &     #This is to make shell script run background
+
+(or)
+
+nohup ./status-check.sh <IP-address> </dev/null >nohup.out 2>nohup.err &    #This is to make shell script run background even if the session is disconnected. 
+
