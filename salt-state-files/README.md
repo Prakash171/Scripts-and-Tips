@@ -93,3 +93,14 @@ Example Groups:
 Note: As new machine/salt-minion get created need to manually add them to groups
 
 
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+#Refer-docs:
+
+One of the good Documents to check for ************"Salting things up in the Devops’ World"**********
+
+Link: https://ep2017.europython.eu/media/conference/slides/salting-things-up-in-the-devops-world-things-just-got-real.pdf
+
+
+
