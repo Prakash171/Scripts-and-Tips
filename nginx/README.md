@@ -109,7 +109,7 @@ server {
 
 
 cd ..
-ln -s /etc/nginx/sites-available/bamboologs.cde.symantec.com /etc/nginx/sites-enabled/bamboologs.cde.symantec.com
+ln -s /etc/nginx/sites-available/bamboologs.xyz.com /etc/nginx/sites-enabled/bamboologs.xyz.com
 
 #Finally restart the nginx service
 
